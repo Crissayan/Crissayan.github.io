@@ -32,6 +32,8 @@
     /*background-image: url('https://cloudfront-us-east-1.images.arcpublishing.com/semana/DFLN4HCMIZANFOH75EJZ6L4HEI.jpg');*/
     background-image: url('../img/f1.png');
     color: #fff; /* Color del texto en la sección parallax */
+    position: relative;
+    overflow: hidden;
 }
 .parallax::before{
     content: "";
